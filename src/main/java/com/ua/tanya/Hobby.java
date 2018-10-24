@@ -105,7 +105,6 @@ public class Hobby {
                 ", longValue = " + longValue +
                 ", floatValue = " + floatValue +
                 ", doubleValue = " + doubleValue +
-                ", boolValue = " + boolValue +
-                '}';
+                ", boolValue = " + boolValue + '}';
     }
 }
