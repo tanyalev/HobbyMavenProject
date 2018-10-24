@@ -1,14 +1,14 @@
 package com.ua.tanya;
 
 public class Hobby {
-    byte byteValue;
-    short shortValue;
-    char CharValue;
-    int intValue;
-    long longValue;
-    float floatValue;
-    double doubleValue;
-    boolean boolValue;
+    private byte byteValue;
+    private short shortValue;
+    private char CharValue;
+    private int intValue;
+    private long longValue;
+    private float floatValue;
+    private double doubleValue;
+    private boolean boolValue;
 
     public Hobby(char charValue, int intValue, long longValue, float floatValue, double doubleValue, boolean boolValue) {
         CharValue = charValue;
@@ -94,5 +94,18 @@ public class Hobby {
 
     public void setBoolValue(boolean boolValue) {
         this.boolValue = boolValue;
+    }
+
+    public String tellAboutHobby() {
+        return "Hobby{" +
+                "byteValue = " + byteValue +
+                ", shortValue = " + shortValue +
+                ", CharValue = " + CharValue +
+                ", intValue = " + intValue +
+                ", longValue = " + longValue +
+                ", floatValue = " + floatValue +
+                ", doubleValue = " + doubleValue +
+                ", boolValue = " + boolValue +
+                '}';
     }
 }
