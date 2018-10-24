@@ -61,5 +61,9 @@ public class App {
         System.out.println("Enter short: ");
         shortValue2 = scanner.nextShort();
         third.setShortValue(shortValue2);
+
+        System.out.println(first.tellAboutHobby());
+        System.out.println(second.tellAboutHobby());
+        System.out.println(third.tellAboutHobby());
     }
 }

@@ -95,4 +95,17 @@ public class Hobby {
     public void setBoolValue(boolean boolValue) {
         this.boolValue = boolValue;
     }
+
+    public String tellAboutHobby() {
+        return "Hobby{" +
+                "byteValue = " + byteValue +
+                ", shortValue = " + shortValue +
+                ", CharValue = " + CharValue +
+                ", intValue = " + intValue +
+                ", longValue = " + longValue +
+                ", floatValue = " + floatValue +
+                ", doubleValue = " + doubleValue +
+                ", boolValue = " + boolValue +
+                '}';
+    }
 }
